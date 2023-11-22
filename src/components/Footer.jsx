@@ -6,21 +6,21 @@ import { faTwitter, faTelegram, faYoutube, faInstagram } from '@fortawesome/free
 const Footer = () => {
   return (
     < div className="w-screen">
-      <div className="bg-dark-blue flex justify-center align-middle">
+      <div className="bg-dark-blue flex justify-center align-middle mx-auto max-w-5xl py-8">
         <div id="footer" className="mx-auto">
-          <p className="text-light-gray font-thin text-center p-5">
+          <p className="text-light-gray font-thin text-center mb-4 text-sm">
             Crypto Decius and all affiliated parties are not registered as financial advisors. This site &amp; the products &amp; services Crypto Decius offers are for educational purposes only and should not be construed as financial advice. You must be aware of the risks and be willing to bear any level of risk to invest in financial markets. Past performance is not necessarily indicative of future results. Crypto Decius and all individuals associated assume no responsibility for your trading results or investments.
           </p>
-          <div className="policy">
+          <div className="flex justify-evenly underline text-sm font-thin">
             <a href="termsofservice.pdf" className="text-light-gray p-2" target="_blank" rel="noopener noreferrer">Terms of Service</a>
             <a href="privacypolicy.pdf" className="text-light-gray p-2" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
           </div>
         </div>
       </div>
 
-      <div className="footer-base bg-purple text-white py-4">
-        <div className="footer-base-container container mx-auto flex justify-between items-center">
-          <div className="text-sm">
+      <div className="bg-purple text-white py-4 h-20 flex align-middle">
+        <div className="container mx-auto flex justify-between items-center max-w-5xl">
+          <div className="text-md">
             Copyright © 2023 Crypto Decius. All rights reserved.
           </div>
           <div className="social-media-block flex space-x-2">
