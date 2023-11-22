@@ -14,14 +14,16 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        <div>
+        <div className="App">
+          <Header />
           <Switch>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/signals" element={<Signals />} />
-            <Route path="/coaching" element={<Coaching />} />
-            <Route path="/results" element={<Results />} />
+            <Route path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/signals" component={Signals} />
+            <Route path="/coaching" component={Coaching} />
+            <Route path="/results" component={Results} />
           </Switch>
+          <Footer />
         </div>
       </Router>
     </Provider>
