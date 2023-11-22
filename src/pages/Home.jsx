@@ -1,5 +1,6 @@
 // src/pages/Home.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
         className="text-white py-16 bg-main bg-no-repeat bg-cover"
       >
         <div className="m-auto max-w-5xl">
-          <div className="mx-auto text-center">
+          <div className=" container mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8 leading-relaxed">
               Crypto <span className="text-blue-purple">Trade</span> Signals
               &amp; Analysis for <span className="text-yellow">Binance</span>{" "}
@@ -70,12 +71,86 @@ const Home = () => {
 
       <div id="stats" className="bg-tri bg-repeat-y bg-cover min-h-screen">
         <div className="container max-w-5xl flex flex-col mx-auto py-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-dark-blue text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-dark-blue text-center mb-8">
             Join the <span className="text-blue-purple">Fastest Growing</span>{" "}
             Trading Community!
           </h1>
-          <div className="aspect-w-16 aspect-h-9 inline-block">
-            <iframe className="w-full h-full aspect-video" src="https://www.youtube.com/embed/uZAjwrZJNG4?si=uyXrneQWcTMJIshz&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          <div className="mx-auto mb-8">
+            <embed src="https://youtu.be/uZAjwrZJNG4?si=0Ohz0wVgZzssnzIS" type="media" />
+          </div>
+
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-dark-blue text-center mb-4">
+            What is <span className="text-blue-purple">CRYPTO DECIUS</span>
+          </h1>
+          <p className="text-center mb-8 uppercase">
+            Navigating Markets with Expert Guidance and Results-Driven
+            Strategies
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <div className="divers">
+              <img
+                src="public/assets/stats3.png"
+                alt="Statistics"
+                loading="lazy"
+                className="w-full h-auto"
+              />
+            </div>
+
+            <div className="intro-div flex flex-col text-justify justify-center">
+              <h1 className="intro-heading text-3xl md:text-4xl font-bold mb-4 text-black">
+                Expert Guidance
+              </h1>
+              <p className="intro-para text-gray-700 mb-4 text-p-gray">
+                At Crypto Decius, we understand that trading in the
+                cryptocurrency markets can be complex and challenging. That's
+                why our team of experienced traders and analysts are dedicated
+                to providing you with expert guidance every step of the way.
+                From personalized coaching to ongoing mentorship, we are
+                committed to helping you develop the skills and knowledge you
+                need to make informed trading decisions and achieve your
+                financial goals.
+              </p>
+              <a
+                href="http://t.me/DeciusBot"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="uppercase text-center bg-blue-purple text-white rounded-full w-full py-5 text-xl font-medium shadow-md"
+              >
+                Sign up for VIP
+              </a>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <div className="intro-div flex flex-col text-justify justify-center">
+              <h1 className="intro-heading text-3xl md:text-4xl font-bold mb-4 text-black">
+                Results
+              </h1>
+              <p className="intro-para text-gray-700 mb-4 text-p-gray">
+                Our focus is on delivering results. We are committed to helping
+                our members achieve their financial goals, whether that's
+                building a portfolio, generating long-term wealth, or achieving
+                financial independence. Our track record speaks for itself, with
+                many of our members reporting significant gains in their trading
+                portfolios.
+              </p>
+              <Link
+                to="/results"
+                className="uppercase text-center bg-blue-purple text-white rounded-full w-full py-5 text-xl font-medium shadow-md">
+                View Reports
+              </Link>
+            </div>
+
+            <div className="divers">
+              <img
+                src="public/assets/stats.png"
+                alt="Statistics"
+                loading="lazy"
+                className="w-full h-auto"
+              />
+            </div>
           </div>
         </div>
       </div>
