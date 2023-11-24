@@ -1,5 +1,5 @@
 // src/pages/Home.jsx
-import React from "react";
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import Pricing from "../components/Cards";
 import Faq from "../components/Faq";
@@ -118,7 +118,7 @@ const Home = () => {
                 href="http://t.me/DeciusBot"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="uppercase text-center bg-blue-purple text-white rounded-full w-full py-5 text-xl font-medium shadow-md"
+                className="uppercase text-center bg-blue-purple text-white rounded-full w-full py-5 text-xl font-bold shadow-md"
               >
                 Sign up for VIP
               </a>
@@ -140,7 +140,7 @@ const Home = () => {
               </p>
               <Link
                 to="/results"
-                className="uppercase text-center bg-blue-purple text-white rounded-full w-full py-5 text-xl font-medium shadow-md">
+                className="uppercase text-center bg-blue-purple text-white rounded-full w-full py-5 text-xl font-bold shadow-md">
                 View Reports
               </Link>
             </div>
@@ -188,9 +188,7 @@ const Home = () => {
           < Pricing />
         </div>
         <div id="faq" className="bg-white">
-          <div className="max-w-5xl mx-auto">
-            < Faq />
-          </div>
+          < Faq />
         </div>
       </div>
     </div>

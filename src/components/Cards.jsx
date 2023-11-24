@@ -68,7 +68,7 @@ const Pricing = () => {
           <div className="cards__card card">
             <p className="card__heading">Yearly</p>
             <p className="card__price">&#36; 498.99</p>
-            <ul role="list" className="card__bullets flow space-y-5">
+            <ul role="list" className="card__bullets flow space-y-5 text-light-gray">
               <li>Live VIP Signals</li>
               <li>Market Insights</li>
               <li>Technical Analysis</li>
@@ -82,12 +82,13 @@ const Pricing = () => {
           <div className="cards__card card">
             <p className="card__heading">Monthly</p>
             <p className="card__price">&#36; 58.99</p>
-            <ul role="list" className="card__bullets flow space-y-5">
+            <ul role="list" className="card__bullets flow space-y-5 text-light-gray">
               <li>Live VIP Signals</li>
               <li>Market Insights</li>
               <li>Technical Analysis</li>
-              <li>Finance News</li>
-              <li>10x Alerts</li>
+              <li>Support Channel</li>
+              <li className="card__none">10x Alerts</li>
+              <li className="card__none">Long-term Buys</li>
             </ul>
             <a href="#pro" className="card__cta cta">Upgrade to Pro</a>
           </div>
@@ -95,12 +96,13 @@ const Pricing = () => {
           <div className="cards__card card">
             <p className="card__heading">Quarterly</p>
             <p className="card__price">&#36; 148.99</p>
-            <ul role="list" className="card__bullets flow space-y-5">
+            <ul role="list" className="card__bullets flow space-y-5 text-light-gray">
               <li>Live VIP Signals</li>
               <li>Market Insightst</li>
               <li>Technical Analysis</li>
               <li>24/7 Support</li>
               <li>10x Alerts</li>
+              <li className="card__none">Long-term Buys</li>
             </ul>
             <a href="#enterprise" className="card__cta cta">Go Ultimate</a>
           </div>
