@@ -23,9 +23,9 @@ const Footer = () => {
           <div className="text-md">
             Copyright © 2023 Crypto Decius. All rights reserved.
           </div>
-          <div className="social-media-block flex space-x-2">
+          <div className="social-media-block flex space-x-4">
             <a
-              href="http://twitter.com/cryptodecius"
+              href="https://twitter.com/cryptodecius"
               target="_blank"
               rel="noopener noreferrer"
               className="social-link-block w-inline-block text-white"
@@ -41,7 +41,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faTelegram} size="lg" />
             </a>
             <a
-              href="http://youtube.com/@cryptodecius"
+              href="https://youtube.com/@cryptodecius"
               target="_blank"
               rel="noopener noreferrer"
               className="social-link-block w-inline-block text-white"
@@ -49,7 +49,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faYoutube} size="lg" />
             </a>
             <a
-              href="http://instagram.com/cryptodecius"
+              href="https://instagram.com/cryptodecius"
               target="_blank"
               rel="noopener noreferrer"
               className="social-link-block w-inline-block text-white"

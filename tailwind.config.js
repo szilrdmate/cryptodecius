@@ -28,8 +28,8 @@ module.exports = {
       backgroundImage: {
         'main': "url('public/assets/gradient.png')",
         'tri': "url('public/assets/white-tri.png')",
-        'left': "url('public/assets/left-blur.png')",
-        'right': "url('public/assets/right.png')"
+        'l-blur': "url('public/assets/left-blur.png')",
+        'r-blur': "url('public/assets/right-blur.png')"
       }
     },
   },

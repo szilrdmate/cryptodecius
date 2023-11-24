@@ -1,6 +1,7 @@
 // src/pages/Home.jsx
 import React from "react";
 import { Link } from "react-router-dom";
+import FloatingPackageCards from "../components/Cards";
 
 const Home = () => {
   return (
@@ -83,12 +84,12 @@ const Home = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-dark-blue text-center mb-4">
             What is <span className="text-blue-purple">CRYPTO DECIUS</span>
           </h1>
-          <p className="text-center mb-8 uppercase">
+          <p className="text-center mb-8 uppercase text-p-gray font-medium tracking-widest">
             Navigating Markets with Expert Guidance and Results-Driven
             Strategies
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 mb-8">
             <div className="divers">
               <img
                 src="public/assets/stats3.png"
@@ -102,7 +103,7 @@ const Home = () => {
               <h1 className="intro-heading text-3xl md:text-4xl font-bold mb-4 text-black">
                 Expert Guidance
               </h1>
-              <p className="intro-para text-gray-700 mb-4 text-p-gray">
+              <p className="mb-4 text-p-gray leading-loose">
                 At Crypto Decius, we understand that trading in the
                 cryptocurrency markets can be complex and challenging. That's
                 why our team of experienced traders and analysts are dedicated
@@ -124,11 +125,11 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-            <div className="intro-div flex flex-col text-justify justify-center">
+            <div className="flex flex-col text-justify justify-center">
               <h1 className="intro-heading text-3xl md:text-4xl font-bold mb-4 text-black">
                 Results
               </h1>
-              <p className="intro-para text-gray-700 mb-4 text-p-gray">
+              <p className="mb-4 text-p-gray leading-loose">
                 Our focus is on delivering results. We are committed to helping
                 our members achieve their financial goals, whether that's
                 building a portfolio, generating long-term wealth, or achieving
@@ -153,6 +154,36 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div id="trading-group" className="bg-r-blur bg-l-blur bg-center bg-repeat-y bg-cover">
+        <div className="container max-w-5xl flex flex-col mx-auto py-16">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-4">
+            VIP <span className="text-light-blue">Trading</span> Group
+          </h1>
+          <p className="text-center mb-8 uppercase text-light-gray font-medium tracking-widest">
+            14 DAY MONEY BACK GUARANTEE. CANCEL ANYTIME IN ONE-CLICK
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <div className="intro-div flex flex-col text-justify justify-center">
+              <h1 className="intro-heading text-3xl md:text-4xl font-bold mb-4 text-yellow uppercase">
+                How it works
+              </h1>
+              <p className="intro-para mb-4 text-light-gray leading-loose">
+                Trade calls, also known as signals, are real-time instructions that provide you with a clear roadmap for buying and selling assets. With each signal, you'll receive steps on which coin to buy, the optimal price to enter the trade, the targets for selling it, and the critical stop-loss level to minimize your potential losses in case the trade doesn't go as planned.
+              </p>
+            </div>
+
+            <div className="divers">
+              <img
+                src="public/assets/phone.png"
+                alt="Statistics"
+                loading="lazy"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+        < FloatingPackageCards />
       </div>
     </div>
   );
