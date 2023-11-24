@@ -27,7 +27,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'main': "url('public/assets/gradient.png')",
-        'tri': "url('public/assets/white-tri.png')"
+        'tri': "url('public/assets/white-tri.png')",
+        'left': "url('public/assets/left-blur.png')",
+        'right': "url('public/assets/right.png')"
       }
     },
   },

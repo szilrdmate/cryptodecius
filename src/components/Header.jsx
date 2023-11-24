@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <nav className="bg-dark-blue p-4 w-full">
+    <nav className="bg-dark-blue p-4 w-full font-Montserrat">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo on the left */}
         <Link to="/" className="text-white text-lg font-bold">
@@ -48,7 +48,7 @@ const Header = () => {
 const NavLink = ({ to, children }) => (
   <Link
     to={to}
-    className="text-white hover:text-green px-3 py-2 rounded-md text-sm font-medium"
+    className="text-white hover:text-green duration-150 px-3 py-2 rounded-md text-sm font-medium"
   >
     {children}
   </Link>
