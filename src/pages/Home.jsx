@@ -1,7 +1,8 @@
 // src/pages/Home.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import FloatingPackageCards from "../components/Cards";
+import Pricing from "../components/Cards";
+import Faq from "../components/Faq";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       >
         <div className="m-auto max-w-5xl">
           <div className=" container mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8">
+            <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8">
               Crypto <span className="text-blue-purple">Trade</span> Signals
               &amp; Analysis for <span className="text-yellow">Binance</span>{" "}
               &amp;<span className="text-yellow"> Bybit</span>
@@ -78,10 +79,10 @@ const Home = () => {
           </h1>
 
           <div className="mx-auto mb-8">
-            <embed src="https://youtu.be/uZAjwrZJNG4?si=0Ohz0wVgZzssnzIS" type="media" />
+            <embed src="https://youtu.be/uZAjwrZJNG4?si=0Ohz0wVgZzssnzIS" type="media"/>
           </div>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-dark-blue text-center mb-4">
+          <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-dark-blue text-center mb-4">
             What is <span className="text-blue-purple">CRYPTO DECIUS</span>
           </h1>
           <p className="text-center mb-8 uppercase text-p-gray font-medium tracking-widest">
@@ -100,7 +101,7 @@ const Home = () => {
             </div>
 
             <div className="intro-div flex flex-col text-justify justify-center">
-              <h1 className="intro-heading text-3xl md:text-4xl font-bold mb-4 text-black">
+              <h1 className="intro-heading text-4xl md:text-4xl font-bold mb-4 text-black">
                 Expert Guidance
               </h1>
               <p className="mb-4 text-p-gray leading-loose">
@@ -126,7 +127,7 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
             <div className="flex flex-col text-justify justify-center">
-              <h1 className="intro-heading text-3xl md:text-4xl font-bold mb-4 text-black">
+              <h1 className="intro-heading text-4xl md:text-4xl font-bold mb-4 text-black">
                 Results
               </h1>
               <p className="mb-4 text-p-gray leading-loose">
@@ -155,9 +156,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div id="trading-group" className="bg-r-blur bg-l-blur bg-center bg-repeat-y bg-cover">
+      <div id="trading-group" className="bg-r-blur bg-center bg-repeat-y bg-cover">
         <div className="container max-w-5xl flex flex-col mx-auto py-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-4">
+          <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-4">
             VIP <span className="text-light-blue">Trading</span> Group
           </h1>
           <p className="text-center mb-8 uppercase text-light-gray font-medium tracking-widest">
@@ -183,7 +184,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-        < FloatingPackageCards />
+        <div className="max-w-5xl mx-auto">
+          < Pricing />
+        </div>
+        <div id="faq" className="bg-white">
+          <div className="max-w-5xl mx-auto">
+            < Faq />
+          </div>
+        </div>
       </div>
     </div>
   );
