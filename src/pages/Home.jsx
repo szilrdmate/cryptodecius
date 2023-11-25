@@ -1,6 +1,7 @@
 // src/pages/Home.jsx
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import VideoPlayer from "../components/VideoPlayer";
 import Pricing from "../components/Cards";
 import Faq from "../components/Faq";
 
@@ -77,10 +78,8 @@ const Home = () => {
             Join the <span className="text-blue-purple">Fastest Growing</span>{" "}
             Trading Community!
           </h1>
-
-          <div className="mx-auto mb-8">
-            <embed src="https://youtu.be/uZAjwrZJNG4?si=0Ohz0wVgZzssnzIS" type="media"/>
-          </div>
+          
+          <VideoPlayer />
 
           <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-dark-blue text-center mb-4">
             What is <span className="text-blue-purple">CRYPTO DECIUS</span>
@@ -156,8 +155,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div id="trading-group" className="bg-r-blur bg-center bg-repeat-y bg-cover">
-        <div className="container max-w-5xl flex flex-col mx-auto py-16">
+      <div id="trading-group" className="bg-r-blur bg-center bg-repeat-y bg-cover py-16">
+        <div className="container max-w-5xl flex flex-col mx-auto">
           <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-4">
             VIP <span className="text-light-blue">Trading</span> Group
           </h1>
@@ -183,14 +182,15 @@ const Home = () => {
               />
             </div>
           </div>
-        </div>
-        <div className="max-w-5xl mx-auto">
+          <div className="max-w-6xl mx-auto">
           < Pricing />
-        </div>
-        <div id="faq" className="bg-white">
-          < Faq />
+          </div>
         </div>
       </div>
+
+      <div id="faq" className="bg-white py-16">
+          < Faq />
+        </div>
     </div>
   );
 };

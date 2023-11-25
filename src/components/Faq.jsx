@@ -29,13 +29,13 @@ const Faq = () => {
           </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         {faqItems.map((item, index) => (
-          <div key={index} className="relative py-8 px-4 flex flex-col justify-between item-center w-full h-full rounded-xl border-light-gray border-[1px] border-opacity-10 shadow-md">
+          <div key={index} className="relative py-8 px-8 flex flex-col justify-between item-center w-full h-full rounded-3xl border-light-gray border-[1px] border-opacity-10 shadow-md">
             <button
               className="flex items-center justify-between text-black w-full"
               onClick={() => toggleAccordion(index)}
             >
               <span className="text-2xl font-semibold">{item.question}</span>
-              <span className="text-2xl font-medium">
+              <span className="text-2xl font-medium bg-purple w-8 h-8 flex items-center justify-center rounded-full">
                 {openIndex === index ? '-' : '+'}
               </span>
             </button>
