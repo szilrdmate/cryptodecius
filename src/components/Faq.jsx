@@ -35,7 +35,7 @@ const Faq = () => {
               onClick={() => toggleAccordion(index)}
             >
               <span className="text-2xl font-semibold">{item.question}</span>
-              <span className="text-2xl font-medium bg-purple w-8 h-8 flex items-center justify-center rounded-full">
+              <span className="text-2xl text-white font-medium bg-purple w-8 h-8 flex items-center justify-center rounded-full">
                 {openIndex === index ? '-' : '+'}
               </span>
             </button>
