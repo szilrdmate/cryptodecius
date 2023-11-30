@@ -1,12 +1,13 @@
 // src/pages/Coaching.jsx
 import React from "react";
+import Cards from "../components/Cards"
 import Calendly from "../components/Calendly";
 
 const Coaching = () => {
   return (
     <div>
-      <div className="min-h-screen text-white py-16 bg-r-blur bg-no-repeat bg-cover font-Montserrat">
-        <div className="m-auto max-w-5xl">
+      <div className="text-white py-16 bg-r-blur bg-no-repeat bg-cover font-Montserrat">
+        <div className="mx-auto max-w-5xl">
           <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8 text-center">
             <span className="text-light-blue">Coaching</span> Program
           </h1>
@@ -26,6 +27,9 @@ const Coaching = () => {
               allowFullScreen
             ></iframe>
           </div>
+        </div>
+        <div className="max-w-5xl mx-auto">
+          <Cards />
         </div>
       </div>
 
