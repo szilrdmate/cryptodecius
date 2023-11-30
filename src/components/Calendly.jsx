@@ -14,7 +14,7 @@ const Calendly = () => {
           <h1 className="heading-20">Who do we recommend coaching for?</h1>
           <div className="recs">
             <img
-              src="/public/assets/check.svg"  // Update the path accordingly
+              src="/assets/check.svg"  // Update the path accordingly
               alt="Checkmark Icon"
               className="tick-icon"
             />

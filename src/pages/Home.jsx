@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <div
         id="landing"
-        className="text-white py-16 bg-main bg-no-repeat bg-cover font-Montserrat"
+        className="text-white py-16 bg-main bg-no-repeat bg-cover font-Montserrat h-[calc(100vh-48px)]"
       >
         <div className="m-auto max-w-5xl">
           <div className=" container mx-auto text-center">
