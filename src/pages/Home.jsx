@@ -47,21 +47,21 @@ const Home = () => {
               <div className="grid grid-cols-3 gap-4">
                 <div className="partner">
                   <img
-                    src="public/assets/binance.png"
+                    src="/assets/binance.png"
                     alt="Binance"
                     className="partner-img w-full h-auto"
                   />
                 </div>
                 <div className="partner">
                   <img
-                    src="public/assets/bybit.png"
+                    src="/assets/bybit.png"
                     alt="Bybit"
                     className="partner-img w-full h-auto"
                   />
                 </div>
                 <div className="partner">
                   <img
-                    src="public/assets/tradingview.png"
+                    src="/assets/tradingview.png"
                     alt="TradingView"
                     className="partner-img w-full h-auto"
                   />
@@ -92,7 +92,7 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 mb-8">
             <div className="divers">
               <img
-                src="public/assets/stats3.png"
+                src="/assets/stats3.png"
                 alt="Statistics"
                 loading="lazy"
                 className="w-full h-auto"
@@ -146,7 +146,7 @@ const Home = () => {
 
             <div className="divers">
               <img
-                src="public/assets/stats.png"
+                src="/assets/stats.png"
                 alt="Statistics"
                 loading="lazy"
                 className="w-full h-auto"
@@ -176,7 +176,7 @@ const Home = () => {
 
             <div className="divers">
               <img
-                src="public/assets/phone.png"
+                src="/assets/phone.png"
                 alt="Statistics"
                 loading="lazy"
                 className="w-full h-auto"

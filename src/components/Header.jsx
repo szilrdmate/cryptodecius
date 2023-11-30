@@ -14,7 +14,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo on the left */}
         <Link to="/" className="text-white text-lg font-bold">
-          <img src="public/assets/logo.svg" className="max-w-32 max-h-12" alt="Crypto Decius logo" />
+          <img src="/assets/logo.svg" className="max-w-32 max-h-12" alt="Crypto Decius logo" />
         </Link>
 
         {/* Responsive Navigation Menu on the right */}
