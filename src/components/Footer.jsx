@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-purple text-white py-4 h-20 flex align-middle">
-        <div className="container mx-auto flex justify-between items-center max-w-5xl">
+        <div className="container mx-auto flex justify-between items-center max-w-5xl sm:mx-20">
           <div className="text-md">
             Copyright © 2023 Crypto Decius. All rights reserved.
           </div>

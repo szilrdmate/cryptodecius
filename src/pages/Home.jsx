@@ -155,6 +155,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <div id="trading-group" className="bg-r-blur bg-center bg-repeat-y bg-cover py-16">
         <div className="container max-w-5xl flex flex-col mx-auto">
           <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-4">
@@ -191,12 +192,15 @@ const Home = () => {
       <div id="faq" className="bg-white py-16">
           < Faq />
       </div>
-      <div className='bg-dark-blue py-16'>
-        <div className='container flex flex-col items-center justify-center max-w-5xl rounded-2xl bg-purple mx-auto py-8'>
-          <p className="text-center mb-4 uppercase text-light-blue font-medium tracking-widest">FREE TELEGRAM GROUP</p>
-          <h1 className="text-center text-4xl md:text-4xl font-bold mb-4 text-white">Why not join our free Telegram group?</h1>
+
+      <div id="signup" className='bg-dark-blue py-16'>
+        <div className='container flex flex-col items-center justify-evenly max-w-5xl rounded-2xl bg-purple mx-auto py-16 h-80'>
+          <div>
+            <p className="text-center mb-4 uppercase text-light-blue font-medium tracking-widest">FREE TELEGRAM GROUP</p>
+            <h1 className="text-center text-4xl md:text-4xl font-bold mb-4 text-white">Why not join our free Telegram group?</h1>
+          </div>
           <div className=''>
-            <a className="text-center py-4 px-8 rounded-3xl border-light-blue border-2 text-white" href="#">Join our Telegram</a>
+            <a className="text-center py-4 px-8 rounded-2xl border-light-blue border-2 font-semibold text-lg text-white" href="https://t.me/cryptodecius/">Join our Telegram</a>
           </div>
         </div>
       </div>
