@@ -1,9 +1,40 @@
 // src/pages/Coaching.jsx
 import React from "react";
-import Cards from "../components/Cards"
+import Pricing from "../components/Cards"
 import Calendly from "../components/Calendly";
 
 const Coaching = () => {
+  const packages = {
+    tier1: [
+      {
+        id: 'starter',
+        name: '1 Month Mentorship',
+        price: '989.99',
+        features: ['6 Month Runtime', 'Financial Advising', 'Technical Analysis', 'Personal Support Agent', '24/7 Support', 'Case Studies'],
+        cta: 'ENROLL',
+      },
+      // Add more tier1 packages as needed
+    ],
+    tier2: [
+      {
+        id: 'pro',
+        name: 'One-Time Session',
+        price: '299.99',
+        features: ['6 Month Runtime', 'Financial Advising', 'Technical Analysis', 'Personal Support Agent', '24/7 Support', 'Case Studies'],
+        cta: 'ENROLL',
+      }
+    ],
+    tier3: [
+      {
+        id: 'enterprise',
+        name: '6 Months COurse',
+        price: '4899.99',
+        features: ['6 Month Runtime', 'Financial Advising', 'Technical Analysis', 'Personal Support Agent', '24/7 Support', 'Case Studies'],
+        cta: 'ENROLL',
+      }
+    ],
+  };
+
   return (
     <div>
       <div className="text-white py-16 bg-r-blur bg-no-repeat bg-cover font-Montserrat">
@@ -29,11 +60,11 @@ const Coaching = () => {
           </div>
         </div>
         <div className="max-w-5xl mx-auto">
-          <Cards />
+          <Pricing packages={packages}/>
         </div>
       </div>
 
-      <div id="calendly" className="bg-white min-h-screen text-black py-16">
+      <div id="calendly" className="bg-white text-black py-16">
         <div className="m-auto max-w-5xl">
           <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold tracking-widest mb-8 text-center">
             <span className="text-purple">Interested?</span> Schedule a Free

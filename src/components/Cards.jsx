@@ -1,8 +1,7 @@
-// src/components/Cards.jsx
-import React, { useEffect, useRef } from 'react';
-import './Cards.css'
+import React, { useEffect, useRef } from "react";
+import "./Cards.css";
 
-const Pricing = () => {
+const Pricing = ({ packages }) => {
   const cardsContainer = useRef(null);
   const cardsContainerInner = useRef(null);
   const cards = useRef([]);
@@ -14,9 +13,9 @@ const Pricing = () => {
       const x = e.pageX - cardsContainer.current.offsetLeft;
       const y = e.pageY - cardsContainer.current.offsetTop;
 
-      overlayEl.style.setProperty('--opacity', '1');
-      overlayEl.style.setProperty('--x', `${x}px`);
-      overlayEl.style.setProperty('--y', `${y}px`);
+      overlayEl.style.setProperty("--opacity", "1");
+      overlayEl.style.setProperty("--x", `${x}px`);
+      overlayEl.style.setProperty("--y", `${y}px`);
     };
 
     const createOverlayCta = (overlayCard, ctaEl) => {
@@ -48,7 +47,9 @@ const Pricing = () => {
       observer.observe(cardEl);
     };
 
-    cards.current = Array.from(cardsContainerInner.current.querySelectorAll(".card"));
+    cards.current = Array.from(
+      cardsContainerInner.current.querySelectorAll(".card")
+    );
     cards.current.forEach(initOverlayCard);
     document.body.addEventListener("pointermove", applyOverlayMask);
 
@@ -59,53 +60,65 @@ const Pricing = () => {
 
   return (
     <div className="main flow">
-      <h1 className="main__heading text-center font-bold text-5xl md:text-5xl sm:text-4xl mb-8 text-white">Pricing</h1>
+      <h1 className="main__heading text-center font-bold text-5xl md:text-5xl sm:text-4xl mb-8 text-white">
+        Pricing
+      </h1>
       <p className="text-center mb-8 uppercase text-light-gray font-medium tracking-widest">
-            CHOOSE A PACKAGE THAT SUITS YOUR NEEDS!
-          </p>
+        CHOOSE A PACKAGE THAT SUITS YOUR NEEDS!
+      </p>
       <div className="main__cards cards" ref={cardsContainer}>
         <div className="cards__inner" ref={cardsContainerInner}>
-          <div className="cards__card card">
-            <p className="card__heading">Yearly</p>
-            <p className="card__price">&#36; 498.99</p>
-            <ul role="list" className="card__bullets flow space-y-5 text-light-gray">
-              <li>Live VIP Signals</li>
-              <li>Market Insights</li>
-              <li>Technical Analysis</li>
-              <li>24/7 Priority Support</li>
-              <li>10x Alerts</li>
-              <li>Long-term Buys</li>
-            </ul>
-            <a href="#starter" className="card__cta cta">Get Started</a>
-          </div>
-
-          <div className="cards__card card">
-            <p className="card__heading">Monthly</p>
-            <p className="card__price">&#36; 58.99</p>
-            <ul role="list" className="card__bullets flow space-y-5 text-light-gray">
-              <li>Live VIP Signals</li>
-              <li>Market Insights</li>
-              <li>Technical Analysis</li>
-              <li>Support Channel</li>
-              <li className="card__none">10x Alerts</li>
-              <li className="card__none">Long-term Buys</li>
-            </ul>
-            <a href="#pro" className="card__cta cta">Upgrade to Pro</a>
-          </div>
-
-          <div className="cards__card card">
-            <p className="card__heading">Quarterly</p>
-            <p className="card__price">&#36; 148.99</p>
-            <ul role="list" className="card__bullets flow space-y-5 text-light-gray">
-              <li>Live VIP Signals</li>
-              <li>Market Insightst</li>
-              <li>Technical Analysis</li>
-              <li>24/7 Support</li>
-              <li>10x Alerts</li>
-              <li className="card__none">Long-term Buys</li>
-            </ul>
-            <a href="#enterprise" className="card__cta cta">Go Ultimate</a>
-          </div>
+          {packages.tier1.map((packageItem, index) => (
+            <div key={`package-tier1-${index}`} className="cards__card card">
+              <p className="card__heading">{packageItem.name}</p>
+              <p className="card__price">&#36; {packageItem.price}</p>
+              <ul
+                role="list"
+                className="card__bullets flow space-y-5 text-light-gray"
+              >
+                {packageItem.features.map((feature, featureIndex) => (
+                  <li key={`feature-${featureIndex}`}>{feature}</li>
+                ))}
+              </ul>
+              <a href={`#${packageItem.id}`} className="card__cta cta">
+                {packageItem.cta}
+              </a>
+            </div>
+          ))}
+          {packages.tier2.map((packageItem, index) => (
+            <div key={`package-tier1-${index}`} className="cards__card card">
+              <p className="card__heading">{packageItem.name}</p>
+              <p className="card__price">&#36; {packageItem.price}</p>
+              <ul
+                role="list"
+                className="card__bullets flow space-y-5 text-light-gray"
+              >
+                {packageItem.features.map((feature, featureIndex) => (
+                  <li key={`feature-${featureIndex}`}>{feature}</li>
+                ))}
+              </ul>
+              <a href={`#${packageItem.id}`} className="card__cta cta">
+                {packageItem.cta}
+              </a>
+            </div>
+          ))}
+          {packages.tier3.map((packageItem, index) => (
+            <div key={`package-tier1-${index}`} className="cards__card card">
+              <p className="card__heading">{packageItem.name}</p>
+              <p className="card__price">&#36; {packageItem.price}</p>
+              <ul
+                role="list"
+                className="card__bullets flow space-y-5 text-light-gray"
+              >
+                {packageItem.features.map((feature, featureIndex) => (
+                  <li key={`feature-${featureIndex}`}>{feature}</li>
+                ))}
+              </ul>
+              <a href={`#${packageItem.id}`} className="card__cta cta">
+                {packageItem.cta}
+              </a>
+            </div>
+          ))}
         </div>
 
         <div className="overlay cards__inner" ref={overlay}></div>

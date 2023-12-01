@@ -6,11 +6,42 @@ import Pricing from "../components/Cards";
 import Faq from "../components/Faq";
 
 const Home = () => {
+  const packages = {
+    tier1: [
+      {
+        id: 'starter',
+        name: 'Yearly',
+        price: '498.99',
+        features: ['Live VIP Signals', 'Market Insights', 'Technical Analysis', '24/7 Priority Support', '10x Alerts', 'Long-term Buys'],
+        cta: 'Get Started',
+      },
+      // Add more tier1 packages as needed
+    ],
+    tier2: [
+      {
+        id: 'pro',
+        name: 'Monthly',
+        price: '58.99',
+        features: ['Live VIP Signals', 'Market Insights', 'Technical Analysis', '24/7 Priority Support', '10x Alerts', 'Long-term Buys'],
+        cta: 'Get Started',
+      }
+    ],
+    tier3: [
+      {
+        id: 'enterprise',
+        name: 'Quarterly',
+        price: '148.99',
+        features: ['Live VIP Signals', 'Market Insights', 'Technical Analysis', '24/7 Priority Support', '10x Alerts', 'Long-term Buys'],
+        cta: 'Get Started',
+      }
+    ],
+  };
+
   return (
     <div>
       <div
         id="landing"
-        className="text-white py-16 bg-main bg-no-repeat bg-cover font-Montserrat h-[calc(100vh-48px)]"
+        className="text-white py-16 bg-main bg-no-repeat bg-cover font-Montserrat"
       >
         <div className="m-auto max-w-5xl">
           <div className=" container mx-auto text-center">
@@ -184,7 +215,7 @@ const Home = () => {
             </div>
           </div>
           <div className="max-w-6xl mx-auto">
-          < Pricing />
+          < Pricing packages={packages}/>
           </div>
         </div>
       </div>
