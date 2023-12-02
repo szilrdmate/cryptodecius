@@ -1,0 +1,1535 @@
+[
+  {
+    "id": 1,
+    "year": 2022,
+    "month": "November",
+    "trades": [
+      {
+        "pair": "AMB/USDT",
+        "lev": "5X",
+        "profit": 75
+      },
+      {
+        "pair": "RLC/USDT",
+        "lev": "5X",
+        "profit": -25
+      },
+      {
+        "pair": "KSM/USDT",
+        "lev": "5X",
+        "profit": 30
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": -25
+      },
+      {
+        "pair": "FTT/USDT",
+        "lev": "10X",
+        "profit": 860
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": 150
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": 250
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": 150
+      },
+      {
+        "pair": "LINK/USDT",
+        "lev": "5X",
+        "profit": 100
+      },
+      {
+        "pair": "NEAR/USDT",
+        "lev": "5X",
+        "profit": 200
+      },
+      {
+        "pair": "XRP/USDT",
+        "lev": "5X",
+        "profit": 100
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": 50
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "10X",
+        "profit": 500
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": 75
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "10X",
+        "profit": 100
+      },
+      {
+        "pair": "MATIC/USDT",
+        "lev": "5X",
+        "profit": 100
+      },
+      {
+        "pair": "UNI/USDT",
+        "lev": "5X",
+        "profit": 50
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": 50
+      },
+      {
+        "pair": "ENS/USDT",
+        "lev": "5X",
+        "profit": 50
+      },
+      {
+        "pair": "DOT/USDT",
+        "lev": "5X",
+        "profit": 50
+      },
+      {
+        "pair": "GMX/USDT",
+        "lev": "5X",
+        "profit": -25
+      },
+      {
+        "pair": "CRO/USDT",
+        "lev": "5X",
+        "profit": 50
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": 50
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": -25
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": -50
+      },
+      {
+        "pair": "ETC/USDT",
+        "lev": "5X",
+        "profit": 25
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": 35
+      },
+      {
+        "pair": "ZEC/USDT",
+        "lev": "5X",
+        "profit": 25
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": 100
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "year": 2022,
+    "month": "December",
+    "trades": [
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "XMR/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "SUSHI/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "RLC/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "DASH/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "BNB/USDT",
+        "lev": "5X",
+        "profit": "150"
+      },
+      {
+        "pair": "CRO/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "EGLD/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "QNT/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "10X",
+        "profit": "1000"
+      },
+      {
+        "pair": "OCEAN/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "MATIC/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "TONCOIN/USDT",
+        "lev": "SPOT",
+        "profit": "50"
+      },
+      {
+        "pair": "GRT/USDT",
+        "lev": "SPOT",
+        "profit": "15"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "year": 2023,
+    "month": "January",
+    "trades": [
+      {
+        "pair": "LINA/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "CELO/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "10X",
+        "profit": "200"
+      },
+      {
+        "pair": "ETC/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "1000SHIB/USDT",
+        "lev": "10X",
+        "profit": "200"
+      },
+      {
+        "pair": "TLM/BUSD",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "BNB/USDT",
+        "lev": "5X",
+        "profit": "-45"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": "-15"
+      },
+      {
+        "pair": "RNDR/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "BNB/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+
+      {
+        "pair": "SFP/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "NEAR/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+
+      {
+        "pair": "KAVA/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "BAT/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "30"
+      },
+      {
+        "pair": "DOGE/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "GRT/USDT",
+        "lev": "5X",
+        "profit": "35"
+      },
+      {
+        "pair": "MANA/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "35"
+      },
+      {
+        "pair": "DUSK/USDT",
+        "lev": "5X",
+        "profit": "175"
+      },
+      {
+        "pair": "APT/USDT",
+        "lev": "5X",
+        "profit": "-50"
+      },
+      {
+        "pair": "FLOW/USDT",
+        "lev": "SPOT",
+        "profit": "70"
+      },
+      {
+        "pair": "ARDR/USDT",
+        "lev": "SPOT",
+        "profit": "50"
+      },
+      {
+        "pair": "HOOK/USDT",
+        "lev": "SPOT",
+        "profit": "50"
+      },
+      {
+        "pair": "SYS/USDT",
+        "lev": "SPOT",
+        "profit": "50"
+      },
+      {
+        "pair": "BETA/USDT",
+        "lev": "SPOT",
+        "profit": "50"
+      },
+      {
+        "pair": "RNDR/USDT",
+        "lev": "HODL",
+        "profit": "250"
+      },
+      {
+        "pair": "FLOW/USDT",
+        "lev": "HODL",
+        "profit": "70"
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "HDOL",
+        "profit": "40"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "HODL",
+        "profit": "25"
+      },
+      {
+        "pair": "SHIB/USDT",
+        "lev": "HODL",
+        "profit": "40"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "year": 2023,
+    "month": "February",
+    "trades": [
+      {
+        "pair": "DOGE/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "GRT/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "80"
+      },
+      {
+        "pair": "FXS/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "BNB/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "DYDX/USDT",
+        "lev": "5X",
+        "profit": "60"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "COMP/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": "40"
+      },
+      {
+        "pair": "DOT/USDT",
+        "lev": "5X",
+        "profit": "40"
+      },
+      {
+        "pair": "ADA/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "FIL/USDT",
+        "lev": "5X",
+        "profit": "120"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "30"
+      },
+      {
+        "pair": "DOT/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": "30"
+      },
+      {
+        "pair": "ADA/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "RLC/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "LTO/USDT",
+        "lev": "HODL",
+        "profit": "65"
+      },
+              {
+        "pair": "RNDR/USDT",
+        "lev": "HODL",
+        "profit": "350"
+      },
+      {
+        "pair": "RIF/USDT",
+        "lev": "HODL",
+        "profit": "175"
+      },
+      {
+        "pair": "CAKE/USDT",
+        "lev": "SPOT",
+        "profit": "-5"
+      },
+      {
+        "pair": "XMR/USDT",
+        "lev": "SPOT",
+        "profit": "-10"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "year": 2023,
+    "month": "March",
+    "trades": [
+      {
+        "pair": "DOT/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "ADA/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": "200"
+      },
+      {
+        "pair": "NEO/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "RLC/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": "90"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "FET/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "FXS/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "OP/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "ICX/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "SHIB/USDT",
+        "lev": "5X",
+        "profit": "1"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },        
+      {
+        "pair": "LDO/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "SHIB/USDT",
+        "lev": "SPOT",
+        "profit": "10"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": "-30"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "-50"
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": "-20"
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "BNB/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "BCH/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "year": 2023,
+    "month": "April",
+    "trades": [
+      {
+        "pair": "INJ/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "LDO/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "110"
+      },
+      {
+        "pair": "BNB/USDT",
+        "lev": "5X",
+        "profit": "35"
+      },
+      {
+        "pair": "ROSE/USDT",
+        "lev": "5X",
+        "profit": "135"
+      },
+      {
+        "pair": "INJ/USDT",
+        "lev": "5X",
+        "profit": "60"
+      },
+      {
+        "pair": "FXS/USDT",
+        "lev": "5X",
+        "profit": "70"
+      },
+      {
+        "pair": "GPT/USDT",
+        "lev": "10X",
+        "profit": "200"
+      },
+      {
+        "pair": "SHIB/USDT",
+        "lev": "SPOT",
+        "profit": "10"
+      },
+      {
+        "pair": "QI/USDT",
+        "lev": "SPOT",
+        "profit": "7"
+      },
+      {
+        "pair": "UNI/USDT",
+        "lev": "SPOT",
+        "profit": "5"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "HODL",
+        "profit": "20"
+      },
+      {
+        "pair": "BNB/USDT",
+        "lev": "HODL",
+        "profit": "10"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "CELO/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "year": 2023,
+    "month": "May",
+    "trades": [
+      {
+        "pair": "ADA/USDT",
+        "lev": "5X",
+        "profit": "-50"
+      },
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": "80"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "DOT/USDT",
+        "lev": "10X",
+        "profit": "100"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "90"
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": "60"
+      },
+      {
+        "pair": "LINK/USDT",
+        "lev": "5X",
+        "profit": "110"
+      },
+      {
+        "pair": "MATIC/USDT",
+        "lev": "5X",
+        "profit": "70"
+      },
+      {
+        "pair": "DOGE/USDT",
+        "lev": "10X",
+        "profit": "30"
+      },
+      {
+        "pair": "XRP/USDT",
+        "lev": "5X",
+        "profit": "40"
+      },
+      {
+        "pair": "VET/USDT",
+        "lev": "SPOT",
+        "profit": "25"
+      },
+      {
+        "pair": "BCH/USDT",
+        "lev": "5X",
+        "profit": "10"
+      },
+      {
+        "pair": "EOS/USDT",
+        "lev": "5X",
+        "profit": "-20"
+      },
+      {
+        "pair": "ATOM/USDT",
+        "lev": "10X",
+        "profit": "65"
+      },
+      {
+        "pair": "XTZ/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "XLM/USDT",
+        "lev": "HODL",
+        "profit": "35"
+      },
+      {
+        "pair": "TRX/USDT",
+        "lev": "5X",
+        "profit": "30"
+      },
+      {
+        "pair": "ALGO/USDT",
+        "lev": "SPOT",
+        "profit": "55"
+      },
+      {
+        "pair": "DASH/USDT",
+        "lev": "5X",
+        "profit": "40"
+      },
+      {
+        "pair": "UNI/USDT",
+        "lev": "HODL",
+        "profit": "60"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "year": 2023,
+    "month": "June",
+    "trades": [
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": "150"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "DOT/USDT",
+        "lev": "10X",
+        "profit": "180"
+      },
+      {
+        "pair": "ADA/USDT",
+        "lev": "5X",
+        "profit": "-10"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "HODL",
+        "profit": "120"
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "LINK/USDT",
+        "lev": "SPOT",
+        "profit": "90"
+      },
+      {
+        "pair": "MATIC/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "DOGE/USDT",
+        "lev": "10X",
+        "profit": "30"
+      },
+      {
+        "pair": "XRP/USDT",
+        "lev": "HODL",
+        "profit": "40"
+      },
+      {
+        "pair": "VET/USDT",
+        "lev": "SPOT",
+        "profit": "-5"
+      },
+      {
+        "pair": "BCH/USDT",
+        "lev": "5X",
+        "profit": "45"
+      },
+      {
+        "pair": "EOS/USDT",
+        "lev": "HODL",
+        "profit": "30"
+      },
+      {
+        "pair": "ATOM/USDT",
+        "lev": "10X",
+        "profit": "65"
+      },
+      {
+        "pair": "XTZ/USDT",
+        "lev": "SPOT",
+        "profit": "50"
+      },
+      {
+        "pair": "XLM/USDT",
+        "lev": "HODL",
+        "profit": "35"
+      },
+      {
+        "pair": "TRX/USDT",
+        "lev": "5X",
+        "profit": "15"
+      },
+      {
+        "pair": "UNI/USDT",
+        "lev": "SPOT",
+        "profit": "15"
+      },
+      {
+        "pair": "AAVE/USDT",
+        "lev": "10X",
+        "profit": "170"
+      },
+      {
+        "pair": "NEO/USDT",
+        "lev": "5X",
+        "profit": "20"
+      },
+      {
+        "pair": "REN/USDT",
+        "lev": "SPOT",
+        "profit": "60"
+      },
+      {
+        "pair": "ALGO/USDT",
+        "lev": "5X",
+        "profit": "30"
+      },
+      {
+        "pair": "COMP/USDT",
+        "lev": "HODL",
+        "profit": "-10"
+      },
+      {
+        "pair": "ZEC/USDT",
+        "lev": "5X",
+        "profit": "10"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "year": 2023,
+    "month": "July",
+    "trades": [
+      {
+        "pair": "ETH/BTC",
+        "lev": "5X",
+        "profit": "110"
+      },
+      {
+        "pair": "DOT/USDT",
+        "lev": "10X",
+        "profit": "-20"
+      },
+      {
+        "pair": "ADA/USDT",
+        "lev": "5X",
+        "profit": "150"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5x",
+        "profit": "25"
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": "80"
+      },
+      {
+        "pair": "LINK/USDT",
+        "lev": "5x",
+        "profit": "60"
+      },
+      {
+        "pair": "MATIC/USDT",
+        "lev": "10X",
+        "profit": "200"
+      },
+      {
+        "pair": "DOGE/USDT",
+        "lev": "5X",
+        "profit": "-30"
+      },
+      {
+        "pair": "XRP/USDT",
+        "lev": "10X",
+        "profit": "35"
+      },
+      {
+        "pair": "VET/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "BCH/USDT",
+        "lev": "5x",
+        "profit": "20"
+      },
+      {
+        "pair": "EOS/USDT",
+        "lev": "5X",
+        "profit": "10"
+      },
+      {
+        "pair": "ATOM/USDT",
+        "lev": "5x",
+        "profit": "90"
+      },
+      {
+        "pair": "XTZ/USDT",
+        "lev": "5X",
+        "profit": "70"
+      },
+      {
+        "pair": "XLM/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "TRX/USDT",
+        "lev": "10X",
+        "profit": "200"
+      },
+      {
+        "pair": "UNI/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "AAVE/USDT",
+        "lev": "5X",
+        "profit": "120"
+      },
+      {
+        "pair": "NEO/USDT",
+        "lev": "5X",
+        "profit": "140"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "year": 2023,
+    "month": "August",
+    "trades": [
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": "30"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "10X",
+        "profit": "40"
+      },
+      {
+        "pair": "BNB/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "ADA/USDT",
+        "lev": "5X",
+        "profit": "15"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "20"
+      },
+      {
+        "pair": "XRP/USDT",
+        "lev": "5X",
+        "profit": "35"
+      },
+      {
+        "pair": "DOT/USDT",
+        "lev": "10X",
+        "profit": "-15"
+      },
+      {
+        "pair": "DOGE/USDT",
+        "lev": "5X",
+        "profit": "45"
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": "30"
+      },
+      {
+        "pair": "LINK/USDT",
+        "lev": "5X",
+        "profit": "10"
+      },
+      {
+        "pair": "BCH/USDT",
+        "lev": "5X",
+        "profit": "80"
+      },
+      {
+        "pair": "XLM/USDT",
+        "lev": "5X",
+        "profit": "25"
+      },
+      {
+        "pair": "UNI/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "EOS/USDT",
+        "lev": "5X",
+        "profit": "15"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "year": 2023,
+    "month": "September",
+    "trades": [
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": "80"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "10X",
+        "profit": "120"
+      },
+      {
+        "pair": "BNB/USDT",
+        "lev": "5X",
+        "profit": "90"
+      },
+      {
+        "pair": "ADA/USDT",
+        "lev": "5X",
+        "profit": "60"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "XRP/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "DOT/USDT",
+        "lev": "10X",
+        "profit": "130"
+      },
+      {
+        "pair": "DOGE/USDT",
+        "lev": "5X",
+        "profit": "110"
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": "95"
+      },
+      {
+        "pair": "LINK/USDT",
+        "lev": "5X",
+        "profit": "70"
+      },
+      {
+        "pair": "BCH/USDT",
+        "lev": "5X",
+        "profit": "85"
+      },
+      {
+        "pair": "XLM/USDT",
+        "lev": "5X",
+        "profit": "120"
+      },
+      {
+        "pair": "UNI/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "EOS/USDT",
+        "lev": "5X",
+        "profit": "55"
+      },
+      {
+        "pair": "XTZ/USDT",
+        "lev": "5X",
+        "profit": "80"
+      },
+      {
+        "pair": "VET/USDT",
+        "lev": "5X",
+        "profit": "-20"
+      },
+      {
+        "pair": "AAVE/USDT",
+        "lev": "10X",
+        "profit": "150"
+      },
+      {
+        "pair": "ATOM/USDT",
+        "lev": "5X",
+        "profit": "90"
+      },
+      {
+        "pair": "FIL/USDT",
+        "lev": "5X",
+        "profit": "110"
+      },
+      {
+        "pair": "TRX/USDT",
+        "lev": "5X",
+        "profit": "50"
+      },
+      {
+        "pair": "DASH/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "NEO/USDT",
+        "lev": "5X",
+        "profit": "60"
+      },
+      {
+        "pair": "MKR/USDT",
+        "lev": "10X",
+        "profit": "140"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "year": 2023,
+    "month": "October",
+    "trades": [
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": "90"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "10X",
+        "profit": "120"
+      },
+      {
+        "pair": "BNB/USDT",
+        "lev": "5X",
+        "profit": "110"
+      },
+      {
+        "pair": "ADA/USDT",
+        "lev": "5X",
+        "profit": "70"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "120"
+      },
+      {
+        "pair": "XRP/USDT",
+        "lev": "5X",
+        "profit": "-30"
+      },
+      {
+        "pair": "DOT/USDT",
+        "lev": "10X",
+        "profit": "140"
+      },
+      {
+        "pair": "DOGE/USDT",
+        "lev": "5X",
+        "profit": "130"
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "LINK/USDT",
+        "lev": "5X",
+        "profit": "-25"
+      },
+      {
+        "pair": "BCH/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "XLM/USDT",
+        "lev": "5X",
+        "profit": "120"
+      },
+      {
+        "pair": "UNI/USDT",
+        "lev": "5X",
+        "profit": "110"
+      },
+      {
+        "pair": "EOS/USDT",
+        "lev": "5X",
+        "profit": "60"
+      },
+      {
+        "pair": "XTZ/USDT",
+        "lev": "5X",
+        "profit": "90"
+      },
+      {
+        "pair": "VET/USDT",
+        "lev": "5X",
+        "profit": "-5"
+      },
+      {
+        "pair": "AAVE/USDT",
+        "lev": "10X",
+        "profit": "160"
+      },
+      {
+        "pair": "ATOM/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "FIL/USDT",
+        "lev": "5X",
+        "profit": "120"
+      },
+      {
+        "pair": "TRX/USDT",
+        "lev": "5X",
+        "profit": "70"
+      },
+      {
+        "pair": "DASH/USDT",
+        "lev": "5X",
+        "profit": "80"
+      },
+      {
+        "pair": "NEO/USDT",
+        "lev": "5X",
+        "profit": "90"
+      },
+      {
+        "pair": "MKR/USDT",
+        "lev": "10X",
+        "profit": "150"
+      },
+      {
+        "pair": "XEM/USDT",
+        "lev": "5X",
+        "profit": "-30"
+      },
+      {
+        "pair": "THETA/USDT",
+        "lev": "5X",
+        "profit": "85"
+      },
+      {
+        "pair": "MIOTA/USDT",
+        "lev": "5X",
+        "profit": "110"
+      },
+      {
+        "pair": "ETC/USDT",
+        "lev": "5X",
+        "profit": "95"
+      },
+      {
+        "pair": "Doge/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "XMR/USDT",
+        "lev": "5X",
+        "profit": "80"
+      },
+      {
+        "pair": "XTZ/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "ADA/USDT",
+        "lev": "5X",
+        "profit": "90"
+      },
+      {
+        "pair": "ATOM/USDT",
+        "lev": "5X",
+        "profit": "85"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "year": 2023,
+    "month": "November",
+    "trades": [
+      {
+        "pair": "BTC/USDT",
+        "lev": "5X",
+        "profit": "100"
+      },
+      {
+        "pair": "ETH/USDT",
+        "lev": "10X",
+        "profit": "120"
+      },
+      {
+        "pair": "BNB/USDT",
+        "lev": "5X",
+        "profit": "-50"
+      },
+      {
+        "pair": "ADA/USDT",
+        "lev": "5X",
+        "profit": "70"
+      },
+      {
+        "pair": "SOL/USDT",
+        "lev": "5X",
+        "profit": "90"
+      },
+      {
+        "pair": "XRP/USDT",
+        "lev": "5X",
+        "profit": "75"
+      },
+      {
+        "pair": "DOT/USDT",
+        "lev": "10X",
+        "profit": "110"
+      },
+      {
+        "pair": "DOGE/USDT",
+        "lev": "5X",
+        "profit": "65"
+      },
+      {
+        "pair": "LTC/USDT",
+        "lev": "5X",
+        "profit": "85"
+      },
+      {
+        "pair": "LINK/USDT",
+        "lev": "5X",
+        "profit": "95"
+      },
+      {
+        "pair": "BCH/USDT",
+        "lev": "5X",
+        "profit": "80"
+      }
+    ]
+  }  
+]
