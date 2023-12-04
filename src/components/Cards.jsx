@@ -32,7 +32,7 @@ const Pricing = ({ packages }) => {
         let width = entry.borderBoxSize[0].inlineSize;
         let height = entry.borderBoxSize[0].blockSize;
 
-        if (cardIndex >= 0) {
+        if (overlay.current && overlay.current.children[cardIndex]) {
           overlay.current.children[cardIndex].style.width = `${width}px`;
           overlay.current.children[cardIndex].style.height = `${height}px`;
         }

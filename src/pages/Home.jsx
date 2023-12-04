@@ -65,7 +65,7 @@ const Home = () => {
                   </a>
                 </div>
                 <div className=" uppercase bg-blue-purple focus:outline-none focus:shadow-outline-yellow rounded-full px-10 py-5 text-2xl font-bold shadow-md">
-                  <a href="#vip" className="bg-blue-purple w-full md:w-auto">
+                  <a href="#trading-group" className="bg-blue-purple w-full md:w-auto">
                     Learn More
                   </a>
                 </div>

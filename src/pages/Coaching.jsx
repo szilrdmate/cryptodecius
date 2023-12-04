@@ -27,7 +27,7 @@ const Coaching = () => {
     tier3: [
       {
         id: 'enterprise',
-        name: '6 Months COurse',
+        name: '6 Months Course',
         price: '4899.99',
         features: ['6 Month Runtime', 'Financial Advising', 'Technical Analysis', 'Personal Support Agent', '24/7 Support', 'Case Studies'],
         cta: 'ENROLL',
