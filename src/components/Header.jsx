@@ -20,7 +20,6 @@ const Header = () => {
         {/* Responsive Navigation Menu on the right */}
         <div className="hidden md:flex space-x-4">
           <NavLink to="/">HOME</NavLink>
-          <NavLink to="/about">ABOUT</NavLink>
           <NavLink to="/signals">SIGNALS</NavLink>
           <NavLink to="/coaching">COACHING</NavLink>
           <NavLink to="/results">RESULTS</NavLink>
@@ -50,9 +49,6 @@ const Header = () => {
             <div className="absolute top-16 right-0 bg-dark-blue rounded-md p-4 space-y-4">
               <DropdownLink to="/" onClick={toggleMobileMenu}>
                 HOME
-              </DropdownLink>
-              <DropdownLink to="/about" onClick={toggleMobileMenu}>
-                ABOUT
               </DropdownLink>
               <DropdownLink to="/signals" onClick={toggleMobileMenu}>
                 SIGNALS
