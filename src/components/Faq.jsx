@@ -40,7 +40,7 @@ const Faq = () => {
               </span>
             </button>
             <div
-              className={`overflow-hidden max-h-0 transition-max-h duration-300 ${
+              className={`overflow-hidden max-h-0 ${
                 openIndex === index ? 'max-h-full' : ''
               }`}
             >
