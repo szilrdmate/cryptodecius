@@ -45,7 +45,7 @@ const Results = () => {
   
   return (
     <div className="bg-main bg-cover font-Montserrat">
-      <div className="container max-w-5xl mx-auto py-16">
+      <div className="container mx-auto py-16">
         <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8 text-center text-white">
           Monthly <span className="text-light-blue">Trade</span> Reports
         </h1>

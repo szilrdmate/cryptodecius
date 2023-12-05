@@ -43,7 +43,7 @@ const Home = () => {
         id="landing"
         className="text-white py-16 bg-main bg-no-repeat bg-cover font-Montserrat"
       >
-        <div className="m-auto max-w-5xl">
+        <div className="mx-auto container">
           <div className=" container mx-auto text-center">
             <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8">
               Crypto <span className="text-blue-purple">Trade</span> Signals
@@ -104,7 +104,7 @@ const Home = () => {
       </div>
 
       <div id="stats" className="bg-tri bg-repeat-y bg-cover min-h-screen">
-        <div className="container max-w-5xl flex flex-col mx-auto py-16">
+        <div className="container flex flex-col mx-auto py-16">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-dark-blue text-center mb-8">
             Join the <span className="text-blue-purple">Fastest Growing</span>{" "}
             Trading Community!
@@ -188,7 +188,7 @@ const Home = () => {
       </div>
 
       <div id="trading-group" className="bg-r-blur bg-center bg-repeat-y bg-cover py-16">
-        <div className="container max-w-5xl flex flex-col mx-auto">
+        <div className="container flex flex-col mx-auto">
           <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-4">
             VIP <span className="text-light-blue">Trading</span> Group
           </h1>
@@ -214,7 +214,7 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="max-w-6xl mx-auto">
+          <div className="container mx-auto">
           < Pricing packages={packages}/>
           </div>
         </div>
@@ -225,7 +225,7 @@ const Home = () => {
       </div>
 
       <div id="signup" className='bg-dark-blue py-16'>
-        <div className='container flex flex-col items-center justify-evenly max-w-5xl rounded-2xl bg-purple mx-auto py-16 h-80'>
+        <div className='container flex flex-col items-center justify-evenly rounded-2xl bg-purple mx-auto py-16 h-80'>
           <div>
             <p className="text-center mb-4 uppercase text-light-blue font-medium tracking-widest">FREE TELEGRAM GROUP</p>
             <h1 className="text-center text-4xl md:text-4xl font-bold mb-4 text-white">Why not join our free Telegram group?</h1>

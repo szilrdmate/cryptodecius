@@ -18,7 +18,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="container max-w-5xl mx-auto py-16">
+    <div className="container mx-auto py-16">
       <h1 className="text-5xl font-bold text-center mb-8">
         <span className="text-purple">FAQ!</span> Need help?
       </h1>

@@ -14,7 +14,7 @@ const Calendly = () => {
     }, []);
 
   return (
-    <div className="max-w-5xl mx-auto grid grid-cols-2 gap-4 p-8 border border-solid border-light-gray border-opacity-20 rounded-2xl shadow-lg bg-[#fff] h-[630px] overflow-hidden">
+    <div className="container mx-auto grid grid-cols-2 gap-4 p-8 border border-solid border-light-gray border-opacity-20 rounded-2xl shadow-lg bg-[#fff] h-[630px] overflow-hidden">
       <div className="p-4">
         <div className="calendly-inline-widget" data-url="https://calendly.com/cryptodecius/coaching-demo-call?hide_event_type_details=1&hide_gdpr_banner=1" style={{ height: '630px' }}></div>
       </div>
