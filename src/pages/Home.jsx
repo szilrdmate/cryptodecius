@@ -13,7 +13,7 @@ const Home = () => {
         name: 'Yearly',
         price: '498.99',
         features: ['Live VIP Signals', 'Market Insights', 'Technical Analysis', '24/7 Priority Support', '10x Alerts', 'Long-term Buys'],
-        cta: 'Get Started',
+        cta: 'SIGN UP',
       },
       // Add more tier1 packages as needed
     ],
@@ -22,8 +22,8 @@ const Home = () => {
         id: 'pro',
         name: 'Monthly',
         price: '58.99',
-        features: ['Live VIP Signals', 'Market Insights', 'Technical Analysis', '24/7 Priority Support', '10x Alerts', 'Long-term Buys'],
-        cta: 'Get Started',
+        features: ['Live VIP Signals', 'Market Insights', 'Technical Analysis', '24/7 Priority Support'],
+        cta: 'SIGN UP',
       }
     ],
     tier3: [
@@ -31,8 +31,8 @@ const Home = () => {
         id: 'enterprise',
         name: 'Quarterly',
         price: '148.99',
-        features: ['Live VIP Signals', 'Market Insights', 'Technical Analysis', '24/7 Priority Support', '10x Alerts', 'Long-term Buys'],
-        cta: 'Get Started',
+        features: ['Live VIP Signals', 'Market Insights', 'Technical Analysis', '24/7 Priority Support', '10x Alerts'],
+        cta: 'SIGN UP',
       }
     ],
   };

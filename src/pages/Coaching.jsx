@@ -4,23 +4,23 @@ import Pricing from "../components/Cards"
 import Calendly from "../components/Calendly";
 
 const Coaching = () => {
+  // Specifying packages for the cards section
   const packages = {
     tier1: [
       {
         id: 'starter',
         name: '1 Month Mentorship',
         price: '989.99',
-        features: ['6 Month Runtime', 'Financial Advising', 'Technical Analysis', 'Personal Support Agent', '24/7 Support', 'Case Studies'],
+        features: ['1 Month Runtime', 'Financial Advising', 'Technical Analysis', '24/7 Support', 'Case Studies'],
         cta: 'ENROLL',
       },
-      // Add more tier1 packages as needed
     ],
     tier2: [
       {
         id: 'pro',
         name: 'One-Time Session',
         price: '299.99',
-        features: ['6 Month Runtime', 'Financial Advising', 'Technical Analysis', 'Personal Support Agent', '24/7 Support', 'Case Studies'],
+        features: ['1 Time Session', 'Financial Advising', 'Technical Analysis'],
         cta: 'ENROLL',
       }
     ],
@@ -29,7 +29,7 @@ const Coaching = () => {
         id: 'enterprise',
         name: '6 Months Course',
         price: '4899.99',
-        features: ['6 Month Runtime', 'Financial Advising', 'Technical Analysis', 'Personal Support Agent', '24/7 Support', 'Case Studies'],
+        features: ['6 Month Runtime', 'Financial Advising', 'Technical Analysis', 'Personal Support Agent', 'Case Studies', 'Networking Events'],
         cta: 'ENROLL',
       }
     ],

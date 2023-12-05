@@ -1,4 +1,4 @@
-// src/pages/Home.jsx
+// src/pages/Results.jsx
 import React, { useState} from "react";
 import data from "../data.json";
 
