@@ -16,11 +16,7 @@ Welcome to Crypto Decius, an educatiuonal platform for crypto enthusiasts and de
 ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-All designs & artworks made by me!
-
-## Contact
-
-You can reach me via email at [mate.szilard.mark@gmail.com](mailto:mate.szilard.mark@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/szilardmate/).
+_All designs & artworks made by me_
 
 ## Screesnhot
 
