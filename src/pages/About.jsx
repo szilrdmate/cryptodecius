@@ -17,7 +17,7 @@ const About = () => {
         </p>
         <div className="flex flex-col items-center justify-center mb-12">
           <img
-            src="/assets/pro-display.png" // Replace with your image path
+            src="/assets/pro-display.webp" // Replace with your image path
             alt="About Us"
             className="w-[80%]"
           />
