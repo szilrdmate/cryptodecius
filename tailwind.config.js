@@ -16,7 +16,7 @@ module.exports = {
         lineHeight: '1.4'
       }],
       base: ['1rem', {
-        lineHeight: '1.7'
+        lineHeight: '1.4'
       }],
       lg: ['1.125rem', {
         lineHeight: '1.2'
@@ -62,7 +62,7 @@ module.exports = {
         'tri': "url('src/assets/white-tri.webp')",
         'l-blur': "url('src/assets/left-blur.webp')",
         'r-blur': "url('src/assets/right-blur.webp')",
-        'team': "linear-gradient(to top, rgba(12, 13, 20, 1) 10%, rgba(12, 13, 20, 0.0) 100%), url('src/assets/team.webp')"
+        'team': "linear-gradient(to top, rgba(12, 13, 20, 1) 20%, rgba(12, 13, 20, 0.0) 100%), url('src/assets/team.webp')"
       }
     },
   },
