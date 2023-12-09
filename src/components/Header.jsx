@@ -14,7 +14,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo on the left */}
         <Link to="/" className="text-white text-lg font-bold">
-          <img src="/assets/logo.svg" className="max-w-32 max-h-12" alt="Crypto Decius logo" />
+          <img src="src/assets/logo.svg" className="max-w-32 max-h-12" alt="Crypto Decius logo" />
         </Link>
 
         {/* Responsive Navigation Menu on the right */}
@@ -22,6 +22,7 @@ const Header = () => {
           <NavLink to="/">HOME</NavLink>
           <NavLink to="/about">ABOUT</NavLink>
           <NavLink to="/coaching">COACHING</NavLink>
+          <NavLink to="/educational">EDUCATIONAL</NavLink>
           <NavLink to="/results">RESULTS</NavLink>
         </div>
 
@@ -56,6 +57,9 @@ const Header = () => {
               <DropdownLink to="/coaching" onClick={toggleMobileMenu}>
                 COACHING
               </DropdownLink>
+              <DropdownLink to="/educational" onClick={toggleMobileMenu}>
+                EDUCATIONAL
+              </DropdownLink>
               <DropdownLink to="/results" onClick={toggleMobileMenu}>
                 RESULTS
               </DropdownLink>
@@ -71,7 +75,7 @@ const Header = () => {
 const NavLink = ({ to, children }) => (
   <Link
     to={to}
-    className="text-white hover:text-green duration-150 px-3 py-2 rounded-md text-sm font-medium"
+    className="text-white hover:text-yellow duration-150 px-3 py-2 rounded-md text-sm font-semibold"
   >
     {children}
   </Link>
@@ -82,7 +86,7 @@ const DropdownLink = ({ to, children, onClick }) => (
   <Link
     to={to}
     onClick={onClick}
-    className="block text-white hover:text-green duration-150 px-3 py-2 rounded-md text-sm font-medium"
+    className="block text-white hover:text-yellow duration-150 px-3 py-2 rounded-md text-sm font-medium"
   >
     {children}
   </Link>

@@ -2,6 +2,7 @@
 import React from "react";
 import Pricing from "../components/Cards"
 import Calendly from "../components/Calendly";
+import VideoPlayer from "../components/VideoPlayer";
 
 const Coaching = () => {
   // Specifying packages for the cards section
@@ -35,6 +36,8 @@ const Coaching = () => {
     ],
   };
 
+  const youtubeLink = "https://www.youtube.com/embed/6-8oV3UTn5g?si=xk7wTE9F_RrnUk1c"
+
   return (
     <div>
       <div className="text-white py-16 bg-r-blur bg-no-repeat bg-cover font-Montserrat">
@@ -46,18 +49,7 @@ const Coaching = () => {
             WATCH A SHORT INTRODUCTION OF OUR COACHING SERVICE TO DETERMINE IF
             IT'S SOMETHING YOU WOULD BE INTERESTED IN
           </p>
-          <div
-            className="relative mb-16"
-            style={{ paddingBottom: "56.25%", height: 0, overflow: "hidden" }}
-          >
-            <iframe
-              className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/6-8oV3UTn5g?si=xk7wTE9F_RrnUk1c"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
+          <VideoPlayer youtubeLink={youtubeLink} />
         </div>
         <div className="container mx-auto">
           <Pricing packages={packages}/>

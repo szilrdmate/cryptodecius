@@ -8,7 +8,7 @@ const history = useHistory();
     <div className="container mx-auto grid md:grid-cols-2 gap-8 sm:grid-cols-1">
       <div className="grid grid-cols-2 grid-rows-2 text-center">
 
-        <img className="rounded-full border-4 border-purple col-start-1 col-span-1 row-start-1 row-span-1 w-full h-auto" src="/assets/szilard.webp"/>
+        <img className="rounded-full border-4 border-purple col-start-1 col-span-1 row-start-1 row-span-1 w-full h-auto" src="src/assets/szilard.webp"/>
 
         <div className="flex flex-col justify-center items-center">
           <p className="text-2xl text-white font-bold text-center mb-2">
@@ -28,7 +28,7 @@ const history = useHistory();
           </p>
         </div>
 
-        <img className="rounded-full border-4 border-purple col-start-2 col-span-1 row-start-2 row-span-1 w-full h-auto" src="/assets/milan.webp"/>
+        <img className="rounded-full border-4 border-purple col-start-2 col-span-1 row-start-2 row-span-1 w-full h-auto" src="src/assets/milan.webp"/>
 
       </div>
 
@@ -53,7 +53,7 @@ const history = useHistory();
         </p>
         <button
             type="button"
-            className="w-full p-3 leading-6 text-white font-thin bg-blue-purple hover:bg-purple focus:outline-none rounded-lg duration-300 hover:translate-y-[-10px]"
+            className="w-full p-3 leading-6 text-white font-thin bg-purple hover:bg-light-blue focus:outline-none rounded-lg duration-300 hover:translate-y-[-10px]"
             onClick={() => history.push("/coaching#calendly")}
     >
           <b className="text-white font-bold text-xl">

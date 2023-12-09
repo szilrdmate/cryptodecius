@@ -5,8 +5,8 @@ import { faTwitter, faTelegram, faYoutube, faInstagram } from '@fortawesome/free
 
 const Footer = () => {
   return (
-    < div className="w-screen">
-      <div className="bg-dark-blue flex justify-center align-middle mx-auto container py-8">
+    < div className="w-screen bg-dark-blue">
+      <div className="flex justify-center align-middle mx-auto container py-8">
         <div id="footer" className="mx-auto">
           <p className="text-light-gray font-thin text-center mb-4 text-sm">
             Crypto Decius and all affiliated parties are not registered as financial advisors. This site &amp; the products &amp; services Crypto Decius offers are for educational purposes only and should not be construed as financial advice. You must be aware of the risks and be willing to bear any level of risk to invest in financial markets. Past performance is not necessarily indicative of future results. Crypto Decius and all individuals associated assume no responsibility for your trading results or investments.

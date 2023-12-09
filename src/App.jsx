@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Results from "./pages/Results";
+import Educational from "./pages/Educational";
 import Coaching from "./pages/Coaching";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/coaching" component={Coaching} />
+          <Route path="/educational" component={Educational} />
           <Route path="/results" component={Results} />
         </Switch>
         <Footer />

@@ -1,6 +1,6 @@
 // src/pages/Results.jsx
 import React, { useState} from "react";
-import data from "../data.json";
+import data from "../utils/data.json";
 
 const Results = () => {
 

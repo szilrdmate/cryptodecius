@@ -58,10 +58,10 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'main': "url('/assets/gradient.webp')",
-        'tri': "url('/assets/white-tri.webp')",
-        'l-blur': "url('/assets/left-blur.webp')",
-        'r-blur': "url('/assets/right-blur.webp')"
+        'main': "url('src/assets/gradient.webp')",
+        'tri': "url('src/assets/white-tri.webp')",
+        'l-blur': "url('src/assets/left-blur.webp')",
+        'r-blur': "url('src/assets/right-blur.webp')"
       }
     },
   },
