@@ -61,7 +61,8 @@ module.exports = {
         'main': "url('src/assets/gradient.webp')",
         'tri': "url('src/assets/white-tri.webp')",
         'l-blur': "url('src/assets/left-blur.webp')",
-        'r-blur': "url('src/assets/right-blur.webp')"
+        'r-blur': "url('src/assets/right-blur.webp')",
+        'team': "linear-gradient(to top, rgba(12, 13, 20, 1) 0%, rgba(12, 13, 20, 1) 10%, rgba(12, 13, 20, 0.0) 100%), url('src/assets/team.webp')"
       }
     },
   },
