@@ -5,7 +5,7 @@ const Team = () => {
 const history = useHistory();
 
   return (
-    <div className="container mx-auto grid md:grid-cols-2 gap-8 sm:grid-cols-1">
+    <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 sm:grid-cols-1">
       <div className="grid grid-cols-2 grid-rows-2 text-center">
 
         <img className="rounded-full border-4 border-purple col-start-1 col-span-1 row-start-1 row-span-1 w-full h-auto" src="src/assets/szilard.webp"/>

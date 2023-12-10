@@ -41,7 +41,7 @@ const Coaching = () => {
   return (
     <div>
       <div className="text-white py-16 bg-r-blur bg-no-repeat bg-cover font-Montserrat">
-        <div className="mx-auto container">
+        <div className="mx-auto max-w-5xl">
           <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8 text-center">
             <span className="text-light-blue">Coaching</span> Program
           </h1>
@@ -51,13 +51,13 @@ const Coaching = () => {
           </p>
           <VideoPlayer youtubeLink={youtubeLink} />
         </div>
-        <div className="container mx-auto">
+        <div className="max-w-5xl mx-auto">
           <Pricing packages={packages}/>
         </div>
       </div>
 
       <div id="calendly" className="bg-white text-black py-16">
-        <div className="mx-auto container">
+        <div className="mx-auto max-w-5xl">
           <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold tracking-widest mb-8 text-center">
             <span className="text-purple">Interested?</span> Schedule a Free
             call with us!

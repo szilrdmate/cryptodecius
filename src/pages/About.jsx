@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div id="about" className="font-Montserrat bg-dark-blue">
       <div className="bg-team bg-cover bg-center bg-no-repeat w-full pt-[40.66%]">
-        <div className="mx-auto container w-full h-full px-4">
+        <div className="mx-auto max-w-5xl w-full h-full px-4">
           <div className="flex justify-between mb-4">
             <h1 className="font-bold text-5xl text-white md:text:5xl sm:2xl">
               Meet The Team
@@ -38,7 +38,7 @@ const About = () => {
         className="py-16 bg-gradient-to-b from-dark-blue via-dark-blue to-[#1e1726] px-4"
         id="team-cards"
       >
-        <div className="container mx-auto grid md:grid-cols-3 gap-16 sm:grid-cols-1">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-16 sm:grid-cols-1">
           <div className="bg-[#302436] border-[1px] border-solid border-white border-opacity-20 h-96 rounded-3xl shadow-2xl hover:shadow-[#803efb90] duration-300 grid grid-rows-3 grid-cols-1 overflow-hidden ">
             <div className="row-span-2 bg-[url(src/assets/team1.webp)] bg-cover bg-no-repeat">
               <div className="w-full h-full bg-gradient-to-b from-dark-blue to-transparent">
