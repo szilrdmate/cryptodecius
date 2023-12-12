@@ -7,17 +7,17 @@ const About = () => {
       <div className="bg-team bg-cover bg-center bg-no-repeat w-full pt-[40.66%]">
         <div className="mx-auto max-w-5xl w-full h-full px-4">
           <div className="flex justify-between mb-4">
-            <h1 className="font-bold text-5xl text-white md:text:5xl sm:2xl">
+            <h1 className="font-bold text-2xl text-white md:text:4xl sm:text-3xl">
               Meet The Team
             </h1>
-            <h1 className="font-bold text-5xl text-yellow md:text:5xl sm:2xl">
+            <h1 className="font-bold text-2xl text-yellow md:text:4xl sm:text-3xl">
               A-Team
             </h1>
           </div>
           <p className="text-left text-light-gray mb-4 uppercase tracking-widest">
             hello world
           </p>
-          <p className="text-justify text-light-gray leading-6">
+          <p className="text-justify text-light-gray leading-6 overflow-scroll max-h-40 sm:overflow- sm:max-h-none">
             Crypto Decius is much more than a mere trading platform; it's a
             vibrant community where passionate traders and investors come
             together to master the art of cryptocurrency trading. Guided by
@@ -43,12 +43,12 @@ const About = () => {
             <div className="row-span-2 bg-[url(src/assets/team1.webp)] bg-cover bg-no-repeat">
               <div className="w-full h-full bg-gradient-to-b from-dark-blue to-transparent">
                 <h1 className="text-white font-semibold relative top-6 left-6 text-">
-                  Meet Our Team
+                  Hello world!
                 </h1>
               </div>
             </div>
             <div className="row-span-1 py-3 px-4 flex flex-col justify-center">
-              <h1 className="text-white font-semibold mb-2">More hello</h1>
+              <h1 className="text-white font-semibold mb-2">Meet Our Team</h1>
               <p className="text-xs text-justify text-light-gray">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
                 sequi illo, at unde, iste totam quas harum, ullam in qui tempore
@@ -60,7 +60,7 @@ const About = () => {
             <div className="row-span-2 bg-[url(src/assets/team2.webp)] bg-cover bg-no-repeat">
               <div className="w-full h-full bg-gradient-to-b from-dark-blue to-transparent">
                 <h1 className="text-white font-semibold relative top-6 left-6">
-                  Talent
+                  Expert Guidance
                 </h1>
               </div>
             </div>
@@ -77,7 +77,7 @@ const About = () => {
             <div className="row-span-2 bg-[url(src/assets/team3.webp)] bg-cover bg-no-repeat bg-center">
               <div className="w-full h-full bg-gradient-to-b from-dark-blue to-transparent">
                 <h1 className="text-white font-semibold relative top-6 left-6">
-                  Join Our Community
+                  Across the Globe
                 </h1>
               </div>
             </div>

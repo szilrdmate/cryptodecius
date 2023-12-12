@@ -8,7 +8,7 @@ const TopTrades = ({ data }) => {
   return (
     <div>
       <h1 className="text-xl font-bold text-white mb-8">Top 5 Trades of All-Time</h1>
-      <ol className="text-light-gray list-decimal list-inside">
+      <ol className="text-light-gray list-decimal list-inside space-y-4">
         {topTrades.map((trade, index) => (
           <li key={index} className="my-2">
             {trade.pair} - Profit: {trade.profit}%

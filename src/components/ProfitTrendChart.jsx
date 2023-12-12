@@ -1,5 +1,5 @@
 import React from "react";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 const monthToNumber = {
   January: '01', February: '02', March: '03', April: '04', May: '05', June: '06',
@@ -41,12 +41,11 @@ const ProfitTrendChart = ({ data }) => {
   });
 
   return (
-    <LineChart width={600} height={300} data={processedData}>
+    <LineChart width={800} height={500} data={processedData}>
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="time" />
       <YAxis dataKey="profit" />
       <Tooltip content={<CustomTooltip />} />
-      <Legend />
       <Line type="monotone" dataKey="profit" stroke="#8884d8" />
     </LineChart>
   );

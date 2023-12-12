@@ -43,11 +43,11 @@ const Home = () => {
     <div>
       <div
         id="landing"
-        className="text-white py-24 bg-main bg-no-repeat bg-cover font-Montserrat"
+        className="text-white px-4 py-24 bg-main bg-no-repeat bg-cover font-Montserrat"
       >
         <div className="mx-auto max-w-5xl">
           <div className=" max-w-5xl mx-auto text-center">
-            <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8">
               Crypto <span className="text-blue-purple">Trade</span> Signals
               &amp; Analysis for <span className="text-yellow">Binance</span>{" "}
               &amp;<span className="text-yellow"> Bybit</span>
@@ -105,7 +105,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div id="stats" className="bg-tri bg-repeat-y bg-cover min-h-screen">
+      <div id="stats" className=" px-4 bg-tri bg-repeat-y bg-cover min-h-screen">
         <div className="max-w-5xl flex flex-col mx-auto py-16">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-dark-blue text-center mb-8">
             Join the <span className="text-blue-purple">Fastest Growing</span>{" "}
@@ -189,7 +189,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div id="trading-group" className="bg-r-blur bg-center bg-repeat-y bg-cover py-16">
+      <div id="trading-group" className="px-4 bg-r-blur bg-center bg-repeat-y bg-cover py-16">
         <div className="max-w-5xl flex flex-col mx-auto">
           <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-4">
             VIP <span className="text-light-blue">Trading</span> Group
@@ -222,15 +222,15 @@ const Home = () => {
         </div>
       </div>
 
-      <div id="faq" className="bg-white py-16">
+      <div id="faq" className="bg-white py-16 px-4">
           < Faq />
       </div>
 
-      <div id="signup" className='bg-dark-blue py-16'>
+      <div id="signup" className='px-4 bg-dark-blue py-16'>
         <div className='max-w-5xl flex flex-col items-center justify-evenly rounded-2xl bg-purple mx-auto py-16 h-80'>
           <div>
             <p className="text-center mb-4 uppercase text-light-blue font-medium tracking-widest">FREE TELEGRAM GROUP</p>
-            <h1 className="text-center text-4xl md:text-4xl font-bold mb-4 text-white">Why not join our free Telegram group?</h1>
+            <h1 className="text-center text-4xl md:text-4xl font-bold mb-12 text-white">Why not join our free Telegram group?</h1>
           </div>
           <div className=''>
             <a className="text-center py-4 px-8 rounded-2xl border-light-blue border-2 font-semibold text-lg text-white" href="https://t.me/cryptodecius/">Join our Telegram</a>

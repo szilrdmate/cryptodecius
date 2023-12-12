@@ -17,7 +17,7 @@ const InstagramFeed = () => {
 
     return (
         <div className="max-w-5xl mx-auto py-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-8">
+          <h1 className="text-2xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-8">
             Check out our <span className="text-light-blue">Extensive Educational </span>Library!
           </h1>
             <div dangerouslySetInnerHTML={{ __html: iframeHtml }} />

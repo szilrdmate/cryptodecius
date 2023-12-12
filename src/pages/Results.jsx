@@ -107,7 +107,7 @@ const Results = () => {
           ))}
         </div>
       </div>
-      <div className="flex justify-center items-center mt-4 pb-8">
+      <div className="flex justify-center items-center mt-4 pb-8 px-4">
         <button
           onClick={handlePrevPage}
           disabled={currentPage === 1}
@@ -115,7 +115,7 @@ const Results = () => {
         >
           Previous Page
         </button>
-        <p className="text-white mx-8">
+        <p className="text-white mx-8 text-center">
           Page {currentPage} / {totalPages}
         </p>
         <button
