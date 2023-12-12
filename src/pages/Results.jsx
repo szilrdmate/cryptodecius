@@ -1,10 +1,10 @@
 // src/pages/Results.jsx
-import React, { useState} from "react";
+import React, { useState } from "react";
 import data from "../utils/data.json";
+import Dashboard from "../components/Dashboard";
 
 const Results = () => {
-
-  const cardsPerPage = 3;
+  const cardsPerPage = 4;
   const [currentPage, setCurrentPage] = useState(1);
   const reversedData = [...data].reverse();
   const totalPages = Math.ceil(reversedData.length / cardsPerPage);
@@ -42,31 +42,45 @@ const Results = () => {
 
     return 0;
   };
-  
+
   return (
     <div className="bg-main bg-cover font-Montserrat">
-      <div className="max-w-5xl mx-auto py-16">
+      <div className="px-4 py-16 h-[100vh-80px]">
+        <Dashboard />
+      </div>
+
+      <div className="max-w-5xl mx-auto py-16 px-4">
         <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8 text-center text-white">
           Monthly <span className="text-light-blue">Trade</span> Reports
         </h1>
         <p className="text-center mb-8 uppercase text-light-gray font-medium tracking-widest">
           Every trade we have every took
         </p>
-        <div className="grid grid-cols-1 grid-flow-row gap-4 max-w-3xl mx-auto">
-        {visibleData.map((item, index) => (
-        <div key={item.id} className="p-8 border border-white border-opacity-10 rounded-lg bg-[#fff] bg-opacity-10 backdrop-blur-[20px]">
-          <div className="mb-8 flex justify-between">
-            <h1 className="text-4xl font-bold text-white">
-              <span className="text-yellow">{`${item.month}`}</span> {`${item.year}`}
-            </h1>
-            <div>
-              <ul className="text-light-gray text-right">
-                <li>Signal Gains: {calculateAverage("return", item.trades).toFixed(0)}%</li>
-                <li>Accuracy: {calculateAverage("accuracy", item.trades).toFixed(0)}%</li>
-              </ul>
-            </div>
-          </div>
-              <div>                
+        <div className="grid lg:grid-cols-2 grid-cols-1 grid-flow-row gap-4 lg:max-w-5xl sm:max-w-3xl mx-auto">
+          {visibleData.map((item, index) => (
+            <div
+              key={item.id}
+              className="overflow-x-scroll lg:max-h-[450px] p-8 border border-white border-opacity-10 rounded-lg bg-[#fff] bg-opacity-10 backdrop-blur-[20px]"
+            >
+              <div className="mb-8 flex justify-between">
+                <h1 className="text-4xl font-bold text-white">
+                  <span className="text-yellow">{`${item.month}`}</span>{" "}
+                  {`${item.year}`}
+                </h1>
+                <div>
+                  <ul className="text-light-gray text-right">
+                    <li>
+                      Signal Gains:{" "}
+                      {calculateAverage("return", item.trades).toFixed(0)}%
+                    </li>
+                    <li>
+                      Accuracy:{" "}
+                      {calculateAverage("accuracy", item.trades).toFixed(0)}%
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
                 <table className="table-auto w-full">
                   <thead className="text-white">
                     <tr>
