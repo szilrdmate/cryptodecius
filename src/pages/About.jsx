@@ -40,7 +40,7 @@ const About = () => {
       >
         <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-16 sm:grid-cols-1">
           <div className="bg-[#302436] border-[1px] border-solid border-white border-opacity-20 h-96 rounded-3xl shadow-2xl hover:shadow-[#803efb90] duration-300 grid grid-rows-3 grid-cols-1 overflow-hidden ">
-            <div className="row-span-2 bg-[url(src/assets/team1.webp)] bg-cover bg-no-repeat">
+            <div className="row-span-2 bg-[url(/assets/team1.webp)] bg-cover bg-no-repeat">
               <div className="w-full h-full bg-gradient-to-b from-dark-blue to-transparent">
                 <h1 className="text-white font-semibold relative top-6 left-6 text-">
                   Hello world!
@@ -57,7 +57,7 @@ const About = () => {
             </div>
           </div>
           <div className="bg-[#302436] border-[1px] border-solid border-white border-opacity-20 h-96 rounded-3xl shadow-2xl hover:shadow-[#803efb90] duration-300 grid grid-rows-3 grid-cols-1 overflow-hidden ">
-            <div className="row-span-2 bg-[url(src/assets/team2.webp)] bg-cover bg-no-repeat">
+            <div className="row-span-2 bg-[url(/assets/team2.webp)] bg-cover bg-no-repeat">
               <div className="w-full h-full bg-gradient-to-b from-dark-blue to-transparent">
                 <h1 className="text-white font-semibold relative top-6 left-6">
                   Expert Guidance
@@ -74,7 +74,7 @@ const About = () => {
             </div>
           </div>
           <div className="bg-[#302436] border-[1px] border-solid border-white border-opacity-20 h-96 rounded-3xl shadow-2xl hover:shadow-[#803efb90] duration-300 grid grid-rows-3 grid-cols-1 overflow-hidden ">
-            <div className="row-span-2 bg-[url(src/assets/team3.webp)] bg-cover bg-no-repeat bg-center">
+            <div className="row-span-2 bg-[url(/assets/team3.webp)] bg-cover bg-no-repeat bg-center">
               <div className="w-full h-full bg-gradient-to-b from-dark-blue to-transparent">
                 <h1 className="text-white font-semibold relative top-6 left-6">
                   Across the Globe

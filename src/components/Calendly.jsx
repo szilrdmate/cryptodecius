@@ -23,7 +23,7 @@ const Calendly = () => {
           <h1 className="text-4xl font-bold mb-4 md:text-center md:mb-8 text-purple">
             Who do we recommend coaching for?
           </h1>
-          <ul className="list-image-[url(src/assets/check.svg)] space-y-8 text-xl ml-24">
+          <ul className="list-image-[url(/assets/check.svg)] space-y-8 text-xl ml-24">
             <li>Begginner & Intermediate Traders</li>
             <li>Looking to Learn More</li>
             <li>Crypto Enthusiasts</li>

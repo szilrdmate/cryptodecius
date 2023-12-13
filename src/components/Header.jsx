@@ -15,7 +15,7 @@ const Header = () => {
         {/* Logo on the left */}
         <Link to="/" className="text-white text-lg font-bold">
           <img
-            src="/src/assets/logo.svg"
+            src="/assets/logo.svg"
             className="max-w-32 max-h-12"
             alt="Crypto Decius logo"
           />
