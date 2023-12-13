@@ -18,6 +18,20 @@ Welcome to Crypto Decius, an educatiuonal platform for crypto enthusiasts and de
 
 _All designs & artworks made by me_
 
-## Screesnhot
+## Screeshots
 
-![Screenshot](public/cryptodecius.webp)
+### Home
+
+![Home](public/home.png)
+
+### About
+
+![About](public/about.png)
+
+### Coaching
+
+![Coaching](public/coaching.png)
+
+### Results
+
+![Results](public/results.png)
