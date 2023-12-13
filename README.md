@@ -20,4 +20,4 @@ _All designs & artworks made by me_
 
 ## Screesnhot
 
-![Screenshot](/public/assets/cryptodecius.webp)
+![Screenshot](public/cryptodecius.webp)
