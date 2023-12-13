@@ -1,5 +1,5 @@
 // src/pages/Home.jsx
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 import VideoPlayer from "../components/VideoPlayer";
 import Pricing from "../components/Cards";
@@ -232,7 +232,7 @@ const Home = () => {
             <p className="text-center mb-4 uppercase text-light-blue font-medium tracking-widest">FREE TELEGRAM GROUP</p>
             <h1 className="text-center text-4xl md:text-4xl font-bold mb-12 text-white">Why not join our free Telegram group?</h1>
           </div>
-          <div className=''>
+          <div className=' hover:-translate-y-2 duration-300'>
             <a className="text-center py-4 px-8 rounded-2xl border-light-blue border-2 font-semibold text-lg text-white" href="https://t.me/cryptodecius/">Join our Telegram</a>
           </div>
         </div>

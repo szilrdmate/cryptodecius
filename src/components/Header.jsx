@@ -1,6 +1,6 @@
 // src/components/Header.jsx
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,10 +11,14 @@ const Header = () => {
 
   return (
     <nav className="bg-dark-blue p-4 w-full font-Montserrat">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="mx-auto flex justify-between items-center">
         {/* Logo on the left */}
         <Link to="/" className="text-white text-lg font-bold">
-          <img src="src/assets/logo.svg" className="max-w-32 max-h-12" alt="Crypto Decius logo" />
+          <img
+            src="src/assets/logo.svg"
+            className="max-w-32 max-h-12"
+            alt="Crypto Decius logo"
+          />
         </Link>
 
         {/* Responsive Navigation Menu on the right */}
@@ -22,7 +26,6 @@ const Header = () => {
           <NavLink to="/">HOME</NavLink>
           <NavLink to="/about">ABOUT</NavLink>
           <NavLink to="/coaching">COACHING</NavLink>
-          <NavLink to="/educational">EDUCATIONAL</NavLink>
           <NavLink to="/results">RESULTS</NavLink>
         </div>
 
@@ -47,7 +50,31 @@ const Header = () => {
 
           {/* Mobile Menu Dropdown */}
           {isMobileMenuOpen && (
-            <div className="absolute top-16 right-0 bg-dark-blue rounded-md p-4 space-y-4">
+            <div
+              className={`fixed z-20 top-0 h-screen w-full bg-dark-blue p-4 space-y-4 transform duration-300 transition-transform flex flex-col justify-center items-center ${
+                isMobileMenuOpen ? "right-0" : "right-full"
+              }`}
+            >
+              {/* Close Button */}
+              <button
+                className="text-white absolute top-6 right-4"
+                onClick={toggleMobileMenu}
+              >
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  ></path>
+                </svg>
+              </button>
               <DropdownLink to="/" onClick={toggleMobileMenu}>
                 HOME
               </DropdownLink>
@@ -56,9 +83,6 @@ const Header = () => {
               </DropdownLink>
               <DropdownLink to="/coaching" onClick={toggleMobileMenu}>
                 COACHING
-              </DropdownLink>
-              <DropdownLink to="/educational" onClick={toggleMobileMenu}>
-                EDUCATIONAL
               </DropdownLink>
               <DropdownLink to="/results" onClick={toggleMobileMenu}>
                 RESULTS
@@ -86,7 +110,7 @@ const DropdownLink = ({ to, children, onClick }) => (
   <Link
     to={to}
     onClick={onClick}
-    className="block text-white hover:text-yellow duration-150 px-3 py-2 rounded-md text-sm font-medium"
+    className="block text-white hover:text-yellow duration-150 px-3 py-2 rounded-md text-3xl font-medium"
   >
     {children}
   </Link>

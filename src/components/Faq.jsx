@@ -8,7 +8,7 @@ const Faq = () => {
     { question: 'Can I win every trade?', answer: 'Absolutely not. There is no magic solution or "algorithm" to give you the power to predict markets with a guaranteed % accuracy. We provide simplified trading signals that are designed for discretionary trading, not to be followed blindly. ' },
     { question: 'Is it beginner-friendly?', answer: 'Yes, if you are new to trading you can certainly use our signals with ease. We have many easy to follow tutorials &amp; guides for you to use as a beginner and get you started out on the right track.' },
     { question: 'How can I sign up?', answer: 'In order to sign up for our VIP service head to our Telegram Group and launch the Crypto Decius Bot. The bot will guide you through the whole process. ' },
-    { question: 'Can I pay by crypto?', answer: 'Yes, we currently accept BNB, BTC, LTC, BUSD &amp; USDT.' },
+    { question: 'Can I pay by crypto?', answer: 'Yes, we currently accept BNB, BTC, LTC, BUSD & USDT.' },
   ];
 
   const [openIndex, setOpenIndex] = useState(null);
