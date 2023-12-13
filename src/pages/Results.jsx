@@ -51,7 +51,7 @@ const Results = () => {
 
       <div className="max-w-5xl mx-auto py-16 px-4">
         <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8 text-center text-white">
-          Monthly <span className="text-light-blue">Trade</span> Reports
+          Monthly <span className="text-purple">Trade</span> Reports
         </h1>
         <p className="text-center mb-8 uppercase text-light-gray font-medium tracking-widest">
           Every trade we have every took

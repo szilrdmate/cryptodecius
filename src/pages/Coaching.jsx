@@ -43,7 +43,7 @@ const Coaching = () => {
       <div className="text-white py-16 bg-r-blur bg-no-repeat bg-cover font-Montserrat px-4">
         <div className="mx-auto max-w-5xl">
           <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8 text-center">
-            <span className="text-light-blue">Coaching</span> Program
+            <span className="text-yellow">Coaching</span> Program
           </h1>
           <p className="text-center mb-8 uppercase text-light-gray font-medium tracking-widest">
             WATCH A SHORT INTRODUCTION OF OUR COACHING SERVICE TO DETERMINE IF

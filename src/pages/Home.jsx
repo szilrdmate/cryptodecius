@@ -15,7 +15,6 @@ const Home = () => {
         features: ['Live VIP Signals', 'Market Insights', 'Technical Analysis', '24/7 Priority Support', '10x Alerts', 'Long-term Buys'],
         cta: 'SIGN UP',
       },
-      // Add more tier1 packages as needed
     ],
     tier2: [
       {
@@ -48,7 +47,7 @@ const Home = () => {
         <div className="mx-auto max-w-5xl">
           <div className=" max-w-5xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-widest mb-8">
-              Crypto <span className="text-blue-purple">Trade</span> Signals
+              Crypto Trade Signals
               &amp; Analysis for <span className="text-yellow">Binance</span>{" "}
               &amp;<span className="text-yellow"> Bybit</span>
             </h1>
@@ -66,8 +65,8 @@ const Home = () => {
                     Join VIP Now
                   </a>
                 </div>
-                <div className=" uppercase bg-blue-purple focus:outline-none focus:shadow-outline-yellow rounded-full px-10 py-5 text-2xl font-bold shadow-md">
-                  <a href="#trading-group" className="bg-blue-purple w-full md:w-auto">
+                <div className=" uppercase bg-purple focus:outline-none focus:shadow-outline-yellow rounded-full px-10 py-5 text-2xl font-bold shadow-md">
+                  <a href="#trading-group" className="w-full md:w-auto">
                     Learn More
                   </a>
                 </div>
@@ -108,14 +107,14 @@ const Home = () => {
       <div id="stats" className=" px-4 bg-tri bg-repeat-y bg-cover min-h-screen">
         <div className="max-w-5xl flex flex-col mx-auto py-16">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-dark-blue text-center mb-8">
-            Join the <span className="text-blue-purple">Fastest Growing</span>{" "}
+            Join the <span className="text-purple">Fastest Growing</span>{" "}
             Trading Community!
           </h1>
           
           <VideoPlayer youtubeLink={youtubeLink} />
 
           <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-dark-blue text-center mb-4">
-            What is <span className="text-blue-purple">CRYPTO DECIUS</span>
+            What is <span className="text-purple">CRYPTO DECIUS</span>
           </h1>
           <p className="text-center mb-8 uppercase text-p-gray font-medium tracking-widest">
             Navigating Markets with Expert Guidance and Results-Driven
@@ -142,15 +141,13 @@ const Home = () => {
                 why our team of experienced traders and analysts are dedicated
                 to providing you with expert guidance every step of the way.
                 From personalized coaching to ongoing mentorship, we are
-                committed to helping you develop the skills and knowledge you
-                need to make informed trading decisions and achieve your
-                financial goals.
+                committed to helping you develop the skills and knowledge.
               </p>
               <a
                 href="http://t.me/DeciusBot"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="uppercase text-center bg-blue-purple text-white rounded-full w-full py-5 text-xl font-bold shadow-md"
+                className="uppercase text-center bg-purple text-white rounded-full w-full py-5 text-xl font-bold shadow-md"
               >
                 Sign up for VIP
               </a>
@@ -172,7 +169,7 @@ const Home = () => {
               </p>
               <Link
                 to="/results"
-                className="uppercase text-center bg-blue-purple text-white rounded-full w-full py-5 text-xl font-bold shadow-md">
+                className="uppercase text-center bg-purple text-white rounded-full w-full py-5 text-xl font-bold shadow-md">
                 View Reports
               </Link>
             </div>
@@ -192,7 +189,7 @@ const Home = () => {
       <div id="trading-group" className="px-4 bg-r-blur bg-center bg-repeat-y bg-cover py-16">
         <div className="max-w-5xl flex flex-col mx-auto">
           <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-4">
-            VIP <span className="text-light-blue">Trading</span> Group
+            VIP <span className="text-purple">Trading</span> Group
           </h1>
           <p className="text-center mb-8 uppercase text-light-gray font-medium tracking-widest">
             14 DAY MONEY BACK GUARANTEE. CANCEL ANYTIME IN ONE-CLICK
